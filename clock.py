@@ -40,7 +40,7 @@ def loop1():
     a= strftime('%H')
     b= strftime('%M')
     c= strftime('%S')
-    m= strftime('%p')
+    m= strftime('%p') 
 
     mn01= Label(root, text= b, font= ("Ariel", 28), bg= "#000000", fg= "white", padx= 30, pady= 30).place(relx= 0.5, rely= 0.5, anchor= CENTER)
     dot01= Label(root, text= ':', font= 9000, bg= "#080808", fg= "white", padx= 10, pady= 10).place(relx= 0.34, rely= 0.5, anchor= W)
